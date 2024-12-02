@@ -1,21 +1,3 @@
-image_net_synsets = [
-       'n04548362', 'n02769748', 'n04356056', 'n04507155',
-       'n02992529', 'n03642806', 'n03197337', 'n04557648',
-    'n04069434', 'n04120489', 'n07248320'
-       ]
+class_map = {0: 'sneakers', 1: 'backpack', 2: 'belt', 3: 'bicycle', 4: 'book', 5: 'calculator', 6: 'camera', 7: 'charger', 8: 'coat', 9: 'earbuds', 10: 'earrings', 11: 'flipflops', 12: 'glasses', 13: 'gloves', 14: 'hat', 15: 'headphones', 16: 'helmet', 17: 'hoodie', 18: 'ID', 19: 'jacket', 20: 'key', 21: 'keyboard', 22: 'laptop', 23: 'lipstick', 24: 'medication', 25: 'mouse', 26: 'necklace', 27: 'notebook', 28: 'pants', 29: 'pen', 30: 'phone', 31: 'powerbank', 32: 'purse', 33: 'remote', 34: 'ring', 35: 'scarf', 36: 'shirt', 37: 'shoes', 38: 'shorts', 39: 'skirt', 40: 'sock', 41: 'speaker', 42: 'sweater', 43: 'tablet', 44: 'umbrella', 45: 'flash', 46: 'wallet', 47: 'watch', 48: 'bottle'}
 
-image_net_map = {
-    'n04548362': 'Wallet',
-    'n02769748': 'Backpack',
-    'n04356056': 'Glasses',
-    'n04507155': 'Umbrella',
-    'n02992529': 'Mobile_Phone',
-    'n03642806': 'Laptop',
-    'n03197337': 'Watch',
-    'n04557648': 'Water_Bottle',
-    'n04069434': 'Camera',
-    'n04120489': 'Shoes',
-    'n07248320': 'Book'
-}
 
-# missing: Keychain, hat, Scarf, Headphones, jacket, bicycle
